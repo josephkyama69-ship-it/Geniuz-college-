@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-cursive: "Great Vibes", cursive;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white font-sans;
+  }
+}
+
+@layer utilities {
+  @media print {
+    .non-printable {
+      display: none !important;
+    }
+    .printable-area {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

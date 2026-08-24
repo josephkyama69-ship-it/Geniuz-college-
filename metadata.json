@@ -1,0 +1,10 @@
+{
+  "name": "Giniaz College",
+  "description": "An educational app offering in-depth courses on business, leadership, technology, and personal development. Users can generate lesson content and convert it to audio for automatic download.",
+  "requestFramePermissions": [
+    "screen-wake-lock"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
